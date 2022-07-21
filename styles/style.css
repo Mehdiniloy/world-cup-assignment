@@ -367,18 +367,3 @@ hr {
 /*---------------- 
 Media Queries
 ------------ */
-@media only screen and (max-width:688px) {
-    .container{
-        width: 100%;
-    }
-    .cover-page{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .match-score {
-        display: none;
-    }
-   .cover-image{
-    flex-direction: column;
-    
-   } 
-}
